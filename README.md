@@ -42,5 +42,6 @@ git clone https://github.com/sammilucia/asus-jamesdsp
 cp -r ./asus-jamesdsp/jamesdsp/* ~/.config/jamesdsp
 rm -rf asus-jamesdsp
 ```
+
 3. Reboot.
 
