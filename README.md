@@ -33,7 +33,7 @@ There is also a balance of tuning profiles to work with your laptop on a table v
 1. Install JamesDSP for Linux from https://github.com/Audio4Linux/JDSP4Linux 
 1. Copy the files to your `~./config/jamesdsp` folder. There should
 
-## OR
+#### OR
 
 ```bash
 mv ~/.config/jamesdsp ~/.config/jamesdsp.bak
