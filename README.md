@@ -43,5 +43,5 @@ cp -r ./asus-jamesdsp/jamesdsp/* ~/.config/jamesdsp
 rm -rf asus-jamesdsp
 ```
 
-1. Reboot.
+3. Reboot.
 
