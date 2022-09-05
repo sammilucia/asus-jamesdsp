@@ -31,11 +31,11 @@ There is also a balance of tuning profiles to work with your laptop on a table v
 ## Installation
 
 1. Install JamesDSP for Linux from https://github.com/Audio4Linux/JDSP4Linux 
-2. Copy the files to your `~./config/jamesdsp` folder. There should
+1. Copy the files to your `~./config/jamesdsp` folder. There should
 
-Or do:
+## OR
 
-````bash
+```bash
 mv ~/.config/jamesdsp ~/.config/jamesdsp.bak
 mkdir ~/.config/jamesdsp
 git clone https://github.com/sammilucia/asus-jamesdsp
@@ -43,5 +43,5 @@ cp -r ./asus-jamesdsp/jamesdsp/* ~/.config/jamesdsp
 rm -rf asus-jamesdsp
 ```
 
-3. Reboot.
+1. Reboot.
 
