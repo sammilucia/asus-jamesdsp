@@ -28,10 +28,9 @@ I find I prefer certain presets for certain things. **Movies** has worked well f
 
 There is also a balance of tuning profiles to work with your laptop on a table vs. your lap, etc.
 
-## Installation
+## Installing the profiles
 
-1. Install JamesDSP for Linux from https://github.com/Audio4Linux/JDSP4Linux 
-1. Copy the files to your `~./config/jamesdsp` folder. There should
+Copy the files to your `~./config/jamesdsp` folder. This should already exist after you've run JamesDSP for Linux the first time.
 
 #### OR
 
@@ -43,9 +42,9 @@ cp -r ./asus-jamesdsp/jamesdsp/* ~/.config/jamesdsp
 rm -rf asus-jamesdsp
 ```
 
-3. Reboot.
+Reboot.
 
-## Installing JamesDSP
+## Updating JamesDSP
 
 To install JamesDSP for Linux, there is a Debian package on the github. If you use Fedora or another distro however you can install the latest version from the copr and update to the newest executable in the Debian package by doing:
 
