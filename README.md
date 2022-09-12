@@ -14,7 +14,7 @@ _(Interestingly, based on the performance of Dolby in Windows on the 2022 model,
 
 They basically try and squeeze as much oompfh out of the little speakers in the ASUS as possible.
 
-## Proifiles
+## Profiles
 
 In more detail...
 
