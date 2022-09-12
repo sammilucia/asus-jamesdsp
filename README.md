@@ -24,9 +24,11 @@ I've then used a mix of convolution, multi-band (well, single band—bass) compr
 
 I find I prefer certain presets for certain things. **Movies** has worked well for me for movies, **Open** is great for low-battery music, and I like **Wide** for gaming.
 
+There is also a balance of tuning profiles to work with your laptop on a table vs. your lap, etc.
+
 **Headphones** has no EQ at all (because I don't know what headphones you have), but adds some mid-side mixing to turn the binaural signal into "pseudo" stereo (mix the left and right channels a bit).
 
-There is also a balance of tuning profiles to work with your laptop on a table vs. your lap, etc.
+**Sep 2022 Update:** I've now added two headphone profiles with speaker simulation. This is used when you want to write music on headphones that translates to ("also sounds good on") real world speakers. This is a work in progress, let me know how you go!
 
 ## Installing the profiles
 
