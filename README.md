@@ -45,3 +45,22 @@ rm -rf asus-jamesdsp
 
 3. Reboot.
 
+## Installing JamesDSP
+
+To install JamesDSP for Linux, there is a Debian package on the github. If you use Fedora or another distro however you can install the latest version from the copr and update to the newest executable in the Debian package by doing:
+
+```bash
+dnf copr enable arrobbins/JDSP4Linux
+dnf update
+dnf install jamesdsp
+```
+
+Download the latest Pipewire or Pulse .deb release from [https://github.com/Audio4Linux/JDSP4Linux](https://github.com/Audio4Linux/JDSP4Linux/releases)
+
+Then do:
+
+```bash
+dpkg-deb -xv ./jamesdsp-pipewire_2.4-49994d_linux64.deb ./
+chmod +x ./usr/bin/jamesdsp
+sudo cp ./usr/bin/jamesdsp /usr/bin
+```
