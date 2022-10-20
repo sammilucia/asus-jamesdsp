@@ -65,3 +65,13 @@ dpkg-deb -xv ./jamesdsp-pipewire_2.4-49994d_linux64.deb ./
 chmod +x ./usr/bin/jamesdsp
 sudo cp ./usr/bin/jamesdsp /usr/bin
 ```
+
+## Changes
+
+19-Oct-2022
+- Matched volume of Movie profiles to other profiles
+- Renamed "Wide 3" profile to "Wide Clear"
+- Fine tuning of EQ settings
+- Added "Full Natural Wide" with slight musical reverberation, it's great for general music
+- Added "Full Natural" and "Wide Natural" with similar properties
+
