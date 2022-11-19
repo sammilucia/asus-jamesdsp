@@ -2,6 +2,12 @@
 
 These will work on other notebooks. The 2020 G14 has a _similar_ speaker EQ curve, but the 2020 models have some extra peaks and troughs in the mids (1000–6000Hz) and a little different bass resonance (around 300Hz instead of 180Hz).
 
+## Fix for JamesDSP stopping video playback
+
+As at 19-Nov this bug is known and a patch for pipewire is coming (see https://gitlab.freedesktop.org/pipewire/wireplumber/-/merge_requests/450)
+
+For now copy the file in this zip to `/usr/share/wireplumber/scripts/` (and overwrite) [policy-node.zip](https://github.com/sammilucia/asus-jamesdsp/files/10048084/policy-node.zip)
+
 ## Why would you want this?
 
 The OS doesn't know about the little speakers, and just outputs sound completely untouched, irrespective of whether it's connected to a big stereo, or little speakers.
