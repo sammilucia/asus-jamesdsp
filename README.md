@@ -16,6 +16,33 @@ They basically try and squeeze as much oompfh out of the little speakers in the 
 
 ## Profiles
 
+While there are a few groups of profiles, there are no rules. Use what you like! Let me know what works for you! I can usually be found on the asus-linux.org Discord 😊
+
+**Critical listening - Flat**
+_Good for accurate/critical listening._
+Designed to correct EQ problems only, and be as true to the original mix intentions as possible. This is a similar goal to studio monitors. "Plain."
+
+**General use/music/YT - Full Natural Forward**
+_Good for general use and music_
+This corrects EQ curves and then goes further to widen the stereo image past the edges of the laptop by a sensible amount. That's about it. "Full" refers to "full" frequency spectrum and use of the speakers. I've pushed them about as hard as I can without audible distortion.
+
+**General use/music/YT - Full Natural Stage**
+_A more relaxed sounding general use. Comfortable for long-term listening of music/YT/etc. Could also be great for games_
+The same, but now we're using the front and back speakers independently, so this is a 4 speaker setup. If you don't have 4 speakers you won't hear it correctly (or if your speakers are wired incorrectly). This is the most full use of laptop speakers.
+
+**Music - Concert**
+_Live music experience_
+This builds on the full effect of _Full Natural Stage_, however adds some reverb to emulate a well-controlled concert area. I was aiming for great sounding concerts like Kraftwerk _Minimum Maximum_.
+
+**Headphones - Headphones and Sony profiles**
+_A set of profiles designed to deal with the binaural nature of headphones_
+
+**Movies/TV - Movie profiles**
+_Pofiles designed for the way movie audio/sound/music is mastered, plus intelligibility of speech_
+
+**Gaming - Wide profiles**
+_Specifically designed for gaming, and being able to identify where sounds are coming from_
+
 In more detail...
 
 The speakers are actually really good for laptop speakers (but they're still laptop speakers). In my laptop there's some resonance around 180 Hz which I've tried to counter, and while the speakers are very mid heavy, they're nicely consistent, so I've pretty much been able to do a V-shaped EQ curve with some tweaks.
@@ -67,6 +94,12 @@ sudo cp ./usr/bin/jamesdsp /usr/bin
 ```
 
 ## Changes
+26-Nov-2022
+- General profile fine-tuning
+- Renamed _Full Natural Wide_ to _Full Natural Forward_
+- Added _Full Natural Stage_, which uses the front and back speakers differently
+- Added _Concert_, which is the same as _Full Natural Stage_ but emulates a well-managed concert environment (think: Kraftwork _Minimum Maximum_)
+- Added Superwide, which emphasises stereo width
 
 19-Oct-2022
 - Matched volume of Movie profiles to other profiles
